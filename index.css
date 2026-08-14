@@ -242,3 +242,16 @@ p {
     padding: 1.5rem;
   }
 }
+
+.image_evolution,
+.image_forecast {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.image_evolution img,
+.image_forecast img {
+  max-width: 100%;
+  height: auto;
+}
